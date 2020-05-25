@@ -1,0 +1,19 @@
+#example a {
+    display: block;
+    background-color: rgb(115, 221, 141);
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#example a:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(115, 221, 141);
+    color: rgb(115, 221, 141);
+}
